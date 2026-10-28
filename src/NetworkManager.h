@@ -5,15 +5,16 @@
 #include "LcdUtil.h"
 #include <WiFi.h>
 
-class NetworkManager {
+class NetworkManager
+{
 public:
   void init();
   void connect();
   void disConnect();
 
 private:
-  const char* ssid       = "Buffalo-2G-AC40";
-  const char* password   = "csak3uie3sc4e";
+  const char *ssid = "SSID";
+  const char *password = "PASSWORD";
 };
 
 #endif // NETWORKMANAGER_H
